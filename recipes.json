@@ -1,0 +1,923 @@
+[
+  {
+    "id": "via-lactea",
+    "icon": "🌌",
+    "title": "Vía Láctea",
+    "summary": "Estrellas y cielo nocturno",
+    "keywords": [
+      "vía láctea",
+      "via lactea",
+      "estrellas",
+      "cielo nocturno",
+      "astrofotografía"
+    ],
+    "questions": [
+      {
+        "key": "support",
+        "label": "¿Tienes trípode?",
+        "options": [
+          [
+            "yes",
+            "Sí"
+          ],
+          [
+            "no",
+            "No"
+          ]
+        ]
+      },
+      {
+        "key": "raw",
+        "label": "¿Quieres editar después?",
+        "options": [
+          [
+            "yes",
+            "Sí, RAW"
+          ],
+          [
+            "no",
+            "No, JPEG"
+          ]
+        ]
+      }
+    ],
+    "variants": {
+      "yes_yes": {
+        "settings": [
+          "Modo M",
+          "f/2",
+          "10 s",
+          "ISO 3200",
+          "Enfoque manual",
+          "RAW"
+        ],
+        "steps": [
+          "Monta la cámara en el trípode.",
+          "Comprueba que el filtro ND está desactivado.",
+          "Pon el dial de velocidad en T y selecciona 10 segundos.",
+          "Selecciona f/2.",
+          "Selecciona ISO 3200.",
+          "Mueve el selector de enfoque a M.",
+          "Amplía una estrella y gira el anillo hasta verla lo más pequeña posible.",
+          "Selecciona calidad RAW.",
+          "Activa el temporizador de 2 segundos.",
+          "Dispara y amplía la foto para revisar el enfoque."
+        ],
+        "tip": "Si las estrellas dejan trazo, baja a 8 segundos. Si queda oscura, sube a ISO 6400.",
+        "checklist": [
+          "Apertura configurada",
+          "Velocidad comprobada",
+          "ISO configurado",
+          "Enfoque seleccionado",
+          "Formato, ND y temporizador revisados"
+        ]
+      },
+      "yes_no": {
+        "settings": [
+          "Modo M",
+          "f/2",
+          "10 s",
+          "ISO 3200–6400",
+          "Enfoque manual",
+          "JPEG"
+        ],
+        "steps": [
+          "Monta la cámara en el trípode.",
+          "Desactiva el filtro ND.",
+          "Pon el dial en T y selecciona 10 segundos.",
+          "Selecciona f/2.",
+          "Selecciona ISO 3200.",
+          "Pon el enfoque en M.",
+          "Amplía una estrella y enfoca con precisión.",
+          "Activa el temporizador de 2 segundos.",
+          "Dispara y revisa la imagen."
+        ],
+        "tip": "Prueba ISO 6400 si el JPEG queda demasiado oscuro.",
+        "checklist": [
+          "Apertura configurada",
+          "Velocidad comprobada",
+          "ISO configurado",
+          "Enfoque seleccionado",
+          "Formato, ND y temporizador revisados"
+        ]
+      },
+      "no_yes": {
+        "settings": [
+          "Apoyo estable",
+          "f/2",
+          "3 s",
+          "ISO 6400",
+          "RAW"
+        ],
+        "steps": [
+          "Busca una superficie totalmente estable.",
+          "Protege la cámara para que no resbale.",
+          "Selecciona modo M.",
+          "Selecciona f/2, 3 segundos e ISO 6400.",
+          "Pon el enfoque en M.",
+          "Amplía una estrella y enfoca.",
+          "Selecciona RAW.",
+          "Activa el temporizador de 2 segundos.",
+          "Dispara sin tocar la cámara."
+        ],
+        "tip": "Sin trípode o apoyo estable no es posible obtener estrellas nítidas a pulso.",
+        "checklist": [
+          "Apertura configurada",
+          "Velocidad comprobada",
+          "ISO configurado",
+          "Enfoque seleccionado",
+          "Formato, ND y temporizador revisados"
+        ]
+      },
+      "no_no": {
+        "settings": [
+          "Apoyo estable",
+          "f/2",
+          "3 s",
+          "ISO 6400",
+          "JPEG"
+        ],
+        "steps": [
+          "Apoya la cámara sobre una superficie firme.",
+          "Selecciona modo M.",
+          "Selecciona f/2, 3 segundos e ISO 6400.",
+          "Desactiva el filtro ND.",
+          "Pon el enfoque en M.",
+          "Amplía una estrella y enfoca.",
+          "Activa el temporizador de 2 segundos.",
+          "Dispara."
+        ],
+        "tip": "Un minitrípode mejora mucho el resultado.",
+        "checklist": [
+          "Apertura configurada",
+          "Velocidad comprobada",
+          "ISO configurado",
+          "Enfoque seleccionado",
+          "Formato, ND y temporizador revisados"
+        ]
+      }
+    }
+  },
+  {
+    "id": "noche-calle",
+    "icon": "🌙",
+    "title": "Calle de noche",
+    "summary": "Luces urbanas y poca luz",
+    "keywords": [
+      "noche",
+      "calle",
+      "ciudad",
+      "iglesia",
+      "restaurante",
+      "monumento",
+      "interior oscuro"
+    ],
+    "questions": [
+      {
+        "key": "movement",
+        "label": "¿Hay personas en movimiento?",
+        "options": [
+          [
+            "yes",
+            "Sí"
+          ],
+          [
+            "no",
+            "No"
+          ]
+        ]
+      },
+      {
+        "key": "support",
+        "label": "¿Tienes apoyo o trípode?",
+        "options": [
+          [
+            "yes",
+            "Sí"
+          ],
+          [
+            "no",
+            "No"
+          ]
+        ]
+      }
+    ],
+    "variants": {
+      "yes_no": {
+        "settings": [
+          "Modo A",
+          "f/2",
+          "ISO AUTO hasta 6400",
+          "1/125 s mínimo",
+          "AF-C"
+        ],
+        "steps": [
+          "Pon el dial de velocidad en A.",
+          "Selecciona f/2.",
+          "Pon el ISO en A.",
+          "Entra en MENÚ/OK → AJUSTE DE DISPARO → AJUSTE ISO AUTO.",
+          "Selecciona ISO máximo 6400.",
+          "Selecciona velocidad mínima 1/125 s.",
+          "Pon el enfoque en C.",
+          "Selecciona AF de Zona.",
+          "Sigue al sujeto y dispara."
+        ],
+        "tip": "Si las personas salen movidas, usa 1/250 s.",
+        "checklist": [
+          "Apertura configurada",
+          "Velocidad comprobada",
+          "ISO configurado",
+          "Enfoque seleccionado",
+          "Formato, ND y temporizador revisados"
+        ]
+      },
+      "no_no": {
+        "settings": [
+          "Modo A",
+          "f/2",
+          "ISO AUTO hasta 6400",
+          "1/60 s mínimo",
+          "AF-S"
+        ],
+        "steps": [
+          "Pon el dial de velocidad en A.",
+          "Selecciona f/2.",
+          "Pon el ISO en A.",
+          "Selecciona ISO máximo 6400.",
+          "Selecciona velocidad mínima 1/60 s.",
+          "Pon el enfoque en S.",
+          "Sujeta la cámara firmemente.",
+          "Enfoca y dispara suavemente."
+        ],
+        "tip": "Haz dos o tres fotos para aumentar la probabilidad de una imagen nítida.",
+        "checklist": [
+          "Apertura configurada",
+          "Velocidad comprobada",
+          "ISO configurado",
+          "Enfoque seleccionado",
+          "Formato, ND y temporizador revisados"
+        ]
+      },
+      "yes_yes": {
+        "settings": [
+          "Modo M",
+          "f/2",
+          "1/125 s",
+          "ISO AUTO",
+          "AF-C"
+        ],
+        "steps": [
+          "Apoya la cámara.",
+          "Selecciona 1/125 s.",
+          "Selecciona f/2.",
+          "Pon ISO en A.",
+          "Pon el enfoque en C.",
+          "Selecciona AF de Zona.",
+          "Sigue al sujeto y dispara."
+        ],
+        "tip": "El apoyo estabiliza la cámara, pero no congela a las personas.",
+        "checklist": [
+          "Apertura configurada",
+          "Velocidad comprobada",
+          "ISO configurado",
+          "Enfoque seleccionado",
+          "Formato, ND y temporizador revisados"
+        ]
+      },
+      "no_yes": {
+        "settings": [
+          "Modo M",
+          "f/5.6",
+          "1 s",
+          "ISO 125",
+          "Temporizador 2 s"
+        ],
+        "steps": [
+          "Monta la cámara en el trípode.",
+          "Pon el dial en T y selecciona 1 segundo.",
+          "Selecciona f/5.6.",
+          "Selecciona ISO 125.",
+          "Activa el temporizador de 2 segundos.",
+          "Enfoca.",
+          "Pulsa el disparador y no toques la cámara."
+        ],
+        "tip": "Las personas en movimiento aparecerán difuminadas.",
+        "checklist": [
+          "Apertura configurada",
+          "Velocidad comprobada",
+          "ISO configurado",
+          "Enfoque seleccionado",
+          "Formato, ND y temporizador revisados"
+        ]
+      }
+    }
+  },
+  {
+    "id": "retrato",
+    "icon": "🙂",
+    "title": "Retrato",
+    "summary": "Persona con fondo desenfocado",
+    "keywords": [
+      "retrato",
+      "persona",
+      "cara",
+      "ojos",
+      "familia",
+      "niño",
+      "fondo desenfocado"
+    ],
+    "questions": [
+      {
+        "key": "light",
+        "label": "¿Hay buena luz?",
+        "options": [
+          [
+            "yes",
+            "Sí"
+          ],
+          [
+            "no",
+            "No"
+          ]
+        ]
+      },
+      {
+        "key": "still",
+        "label": "¿La persona está quieta?",
+        "options": [
+          [
+            "yes",
+            "Sí"
+          ],
+          [
+            "no",
+            "No"
+          ]
+        ]
+      }
+    ],
+    "variants": {
+      "yes_yes": {
+        "settings": [
+          "Modo A",
+          "f/2",
+          "ISO AUTO",
+          "Detección de ojo",
+          "AF-S"
+        ],
+        "steps": [
+          "Pon el dial de velocidad en A.",
+          "Selecciona f/2.",
+          "Pon ISO en A.",
+          "Activa detección de cara y ojo.",
+          "Pon el enfoque en S.",
+          "Acércate a la persona.",
+          "Enfoca al ojo más cercano.",
+          "Dispara."
+        ],
+        "tip": "Separa a la persona del fondo para aumentar el desenfoque.",
+        "checklist": [
+          "Apertura configurada",
+          "Velocidad comprobada",
+          "ISO configurado",
+          "Enfoque seleccionado",
+          "Formato, ND y temporizador revisados"
+        ]
+      },
+      "no_yes": {
+        "settings": [
+          "Modo A",
+          "f/2",
+          "ISO AUTO hasta 6400",
+          "1/125 s mínimo",
+          "Detección de ojo"
+        ],
+        "steps": [
+          "Pon velocidad en A.",
+          "Selecciona f/2.",
+          "Pon ISO en A.",
+          "Selecciona ISO máximo 6400.",
+          "Selecciona velocidad mínima 1/125 s.",
+          "Activa detección de cara y ojo.",
+          "Enfoca al ojo y dispara."
+        ],
+        "tip": "Busca una ventana o una fuente de luz lateral suave.",
+        "checklist": [
+          "Apertura configurada",
+          "Velocidad comprobada",
+          "ISO configurado",
+          "Enfoque seleccionado",
+          "Formato, ND y temporizador revisados"
+        ]
+      },
+      "yes_no": {
+        "settings": [
+          "Modo A",
+          "f/2.8",
+          "ISO AUTO",
+          "1/250 s mínimo",
+          "AF-C"
+        ],
+        "steps": [
+          "Pon velocidad en A.",
+          "Selecciona f/2.8.",
+          "Pon ISO en A.",
+          "Selecciona velocidad mínima 1/250 s.",
+          "Pon el enfoque en C.",
+          "Activa detección de cara y ojo.",
+          "Sigue a la persona.",
+          "Dispara una ráfaga corta."
+        ],
+        "tip": "Usa AF de Zona si la detección de ojo pierde al sujeto.",
+        "checklist": [
+          "Apertura configurada",
+          "Velocidad comprobada",
+          "ISO configurado",
+          "Enfoque seleccionado",
+          "Formato, ND y temporizador revisados"
+        ]
+      },
+      "no_no": {
+        "settings": [
+          "Modo A",
+          "f/2",
+          "ISO AUTO hasta 12800",
+          "1/250 s mínimo",
+          "AF-C"
+        ],
+        "steps": [
+          "Pon velocidad en A.",
+          "Selecciona f/2.",
+          "Pon ISO en A.",
+          "Selecciona ISO máximo 12800.",
+          "Selecciona velocidad mínima 1/250 s.",
+          "Pon el enfoque en C.",
+          "Activa detección de cara y ojo.",
+          "Dispara una ráfaga breve."
+        ],
+        "tip": "Es preferible algo de ruido a una cara movida.",
+        "checklist": [
+          "Apertura configurada",
+          "Velocidad comprobada",
+          "ISO configurado",
+          "Enfoque seleccionado",
+          "Formato, ND y temporizador revisados"
+        ]
+      }
+    }
+  },
+  {
+    "id": "paisaje",
+    "icon": "🏞️",
+    "title": "Paisaje",
+    "summary": "Nitidez y profundidad de campo",
+    "keywords": [
+      "paisaje",
+      "montaña",
+      "mar",
+      "playa",
+      "campo",
+      "amanecer",
+      "atardecer",
+      "viaje"
+    ],
+    "questions": [
+      {
+        "key": "support",
+        "label": "¿Tienes trípode?",
+        "options": [
+          [
+            "yes",
+            "Sí"
+          ],
+          [
+            "no",
+            "No"
+          ]
+        ]
+      },
+      {
+        "key": "sunset",
+        "label": "¿Es amanecer o atardecer?",
+        "options": [
+          [
+            "yes",
+            "Sí"
+          ],
+          [
+            "no",
+            "No"
+          ]
+        ]
+      }
+    ],
+    "variants": {
+      "yes_yes": {
+        "settings": [
+          "Modo A",
+          "f/8",
+          "ISO 125",
+          "Trípode",
+          "Temporizador 2 s"
+        ],
+        "steps": [
+          "Monta la cámara en el trípode.",
+          "Pon la velocidad en A.",
+          "Selecciona f/8.",
+          "Selecciona ISO 125.",
+          "Activa el temporizador de 2 segundos.",
+          "Enfoca aproximadamente a un tercio de la escena.",
+          "Revisa las luces altas.",
+          "Dispara."
+        ],
+        "tip": "Si el cielo queda demasiado claro, usa compensación negativa.",
+        "checklist": [
+          "Apertura configurada",
+          "Velocidad comprobada",
+          "ISO configurado",
+          "Enfoque seleccionado",
+          "Formato, ND y temporizador revisados"
+        ]
+      },
+      "yes_no": {
+        "settings": [
+          "Modo A",
+          "f/8",
+          "ISO 125",
+          "Trípode",
+          "Temporizador 2 s"
+        ],
+        "steps": [
+          "Monta la cámara en el trípode.",
+          "Pon velocidad en A.",
+          "Selecciona f/8.",
+          "Selecciona ISO 125.",
+          "Activa el temporizador de 2 segundos.",
+          "Comprueba el horizonte.",
+          "Enfoca a un tercio de la escena.",
+          "Dispara."
+        ],
+        "tip": "Evita f/16 salvo que necesites una estrella solar.",
+        "checklist": [
+          "Apertura configurada",
+          "Velocidad comprobada",
+          "ISO configurado",
+          "Enfoque seleccionado",
+          "Formato, ND y temporizador revisados"
+        ]
+      },
+      "no_yes": {
+        "settings": [
+          "Modo A",
+          "f/5.6",
+          "ISO AUTO",
+          "1/60 s mínimo"
+        ],
+        "steps": [
+          "Pon velocidad en A.",
+          "Selecciona f/5.6.",
+          "Pon ISO en A.",
+          "Selecciona velocidad mínima 1/60 s.",
+          "Sujeta la cámara con ambas manos.",
+          "Enfoca a un tercio de la escena.",
+          "Dispara."
+        ],
+        "tip": "Apóyate en una pared o barandilla cuando disminuya la luz.",
+        "checklist": [
+          "Apertura configurada",
+          "Velocidad comprobada",
+          "ISO configurado",
+          "Enfoque seleccionado",
+          "Formato, ND y temporizador revisados"
+        ]
+      },
+      "no_no": {
+        "settings": [
+          "Modo A",
+          "f/5.6–f/8",
+          "ISO AUTO",
+          "1/125 s mínimo"
+        ],
+        "steps": [
+          "Pon velocidad en A.",
+          "Selecciona f/5.6 o f/8.",
+          "Pon ISO en A.",
+          "Selecciona velocidad mínima 1/125 s.",
+          "Comprueba el horizonte.",
+          "Enfoca.",
+          "Dispara."
+        ],
+        "tip": "Con buena luz el ISO se mantendrá bajo.",
+        "checklist": [
+          "Apertura configurada",
+          "Velocidad comprobada",
+          "ISO configurado",
+          "Enfoque seleccionado",
+          "Formato, ND y temporizador revisados"
+        ]
+      }
+    }
+  },
+  {
+    "id": "movimiento",
+    "icon": "🏃",
+    "title": "Movimiento",
+    "summary": "Niños, animales o acción",
+    "keywords": [
+      "movimiento",
+      "deporte",
+      "niños",
+      "animales",
+      "perro",
+      "bicicleta",
+      "acción",
+      "aves"
+    ],
+    "questions": [
+      {
+        "key": "fast",
+        "label": "¿El movimiento es rápido?",
+        "options": [
+          [
+            "yes",
+            "Sí"
+          ],
+          [
+            "no",
+            "No"
+          ]
+        ]
+      },
+      {
+        "key": "light",
+        "label": "¿Hay buena luz?",
+        "options": [
+          [
+            "yes",
+            "Sí"
+          ],
+          [
+            "no",
+            "No"
+          ]
+        ]
+      }
+    ],
+    "variants": {
+      "yes_yes": {
+        "settings": [
+          "Modo S",
+          "1/1000 s",
+          "ISO AUTO",
+          "AF-C",
+          "Zona"
+        ],
+        "steps": [
+          "Pon el anillo de apertura en A.",
+          "Selecciona 1/1000 s.",
+          "Pon ISO en A.",
+          "Pon el enfoque en C.",
+          "Selecciona AF de Zona.",
+          "Mantén la zona sobre el sujeto.",
+          "Sigue al sujeto.",
+          "Dispara una ráfaga corta."
+        ],
+        "tip": "1/1000 s suele congelar bien bicicletas y animales.",
+        "checklist": [
+          "Apertura configurada",
+          "Velocidad comprobada",
+          "ISO configurado",
+          "Enfoque seleccionado",
+          "Formato, ND y temporizador revisados"
+        ]
+      },
+      "yes_no": {
+        "settings": [
+          "Modo S",
+          "1/500 s",
+          "ISO AUTO hasta 12800",
+          "AF-C"
+        ],
+        "steps": [
+          "Pon la apertura en A.",
+          "Selecciona 1/500 s.",
+          "Pon ISO en A.",
+          "Selecciona ISO máximo 12800.",
+          "Pon el enfoque en C.",
+          "Selecciona AF de Zona.",
+          "Sigue al sujeto.",
+          "Dispara."
+        ],
+        "tip": "Si queda oscura, baja a 1/250 s solo si aceptas algo de movimiento.",
+        "checklist": [
+          "Apertura configurada",
+          "Velocidad comprobada",
+          "ISO configurado",
+          "Enfoque seleccionado",
+          "Formato, ND y temporizador revisados"
+        ]
+      },
+      "no_yes": {
+        "settings": [
+          "Modo S",
+          "1/500 s",
+          "ISO AUTO",
+          "AF-C"
+        ],
+        "steps": [
+          "Pon la apertura en A.",
+          "Selecciona 1/500 s.",
+          "Pon ISO en A.",
+          "Pon el enfoque en C.",
+          "Coloca la zona sobre el sujeto.",
+          "Sigue el movimiento.",
+          "Dispara."
+        ],
+        "tip": "Para una persona caminando puede bastar 1/250 s.",
+        "checklist": [
+          "Apertura configurada",
+          "Velocidad comprobada",
+          "ISO configurado",
+          "Enfoque seleccionado",
+          "Formato, ND y temporizador revisados"
+        ]
+      },
+      "no_no": {
+        "settings": [
+          "Modo S",
+          "1/250 s",
+          "ISO AUTO hasta 6400",
+          "AF-C"
+        ],
+        "steps": [
+          "Pon la apertura en A.",
+          "Selecciona 1/250 s.",
+          "Pon ISO en A.",
+          "Selecciona ISO máximo 6400.",
+          "Pon el enfoque en C.",
+          "Sigue al sujeto suavemente.",
+          "Dispara una ráfaga corta."
+        ],
+        "tip": "Busca más luz antes de reducir demasiado la velocidad.",
+        "checklist": [
+          "Apertura configurada",
+          "Velocidad comprobada",
+          "ISO configurado",
+          "Enfoque seleccionado",
+          "Formato, ND y temporizador revisados"
+        ]
+      }
+    }
+  },
+  {
+    "id": "sol-fondo",
+    "icon": "☀️",
+    "title": "Retrato al sol",
+    "summary": "Fondo desenfocado con mucha luz",
+    "keywords": [
+      "sol",
+      "mucha luz",
+      "filtro nd",
+      "flash de relleno",
+      "retrato al sol"
+    ],
+    "questions": [
+      {
+        "key": "flash",
+        "label": "¿Quieres usar flash de relleno?",
+        "options": [
+          [
+            "yes",
+            "Sí"
+          ],
+          [
+            "no",
+            "No"
+          ]
+        ]
+      },
+      {
+        "key": "still",
+        "label": "¿La persona está quieta?",
+        "options": [
+          [
+            "yes",
+            "Sí"
+          ],
+          [
+            "no",
+            "No"
+          ]
+        ]
+      }
+    ],
+    "variants": {
+      "yes_yes": {
+        "settings": [
+          "Modo A",
+          "f/2",
+          "ISO 125",
+          "Filtro ND",
+          "Flash"
+        ],
+        "steps": [
+          "Pon velocidad en A.",
+          "Selecciona f/2.",
+          "Selecciona ISO 125.",
+          "Activa el filtro ND.",
+          "Activa el flash incorporado.",
+          "Activa detección de cara y ojo.",
+          "Enfoca al ojo.",
+          "Dispara."
+        ],
+        "tip": "El filtro ND permite usar f/2 con mucha luz.",
+        "checklist": [
+          "Apertura configurada",
+          "Velocidad comprobada",
+          "ISO configurado",
+          "Enfoque seleccionado",
+          "Formato, ND y temporizador revisados"
+        ]
+      },
+      "no_yes": {
+        "settings": [
+          "Modo A",
+          "f/2",
+          "ISO 125",
+          "Filtro ND"
+        ],
+        "steps": [
+          "Pon velocidad en A.",
+          "Selecciona f/2.",
+          "Selecciona ISO 125.",
+          "Activa el filtro ND.",
+          "Activa detección de cara y ojo.",
+          "Busca luz lateral suave.",
+          "Enfoca y dispara."
+        ],
+        "tip": "Comprueba que la cara no quede demasiado oscura.",
+        "checklist": [
+          "Apertura configurada",
+          "Velocidad comprobada",
+          "ISO configurado",
+          "Enfoque seleccionado",
+          "Formato, ND y temporizador revisados"
+        ]
+      },
+      "yes_no": {
+        "settings": [
+          "Modo A",
+          "f/2.8",
+          "ISO 125",
+          "Filtro ND",
+          "AF-C"
+        ],
+        "steps": [
+          "Pon velocidad en A.",
+          "Selecciona f/2.8.",
+          "Selecciona ISO 125.",
+          "Activa el filtro ND.",
+          "Pon el enfoque en C.",
+          "Activa detección de cara.",
+          "Activa el flash.",
+          "Sigue al sujeto y dispara."
+        ],
+        "tip": "El flash incorporado funciona mejor a poca distancia.",
+        "checklist": [
+          "Apertura configurada",
+          "Velocidad comprobada",
+          "ISO configurado",
+          "Enfoque seleccionado",
+          "Formato, ND y temporizador revisados"
+        ]
+      },
+      "no_no": {
+        "settings": [
+          "Modo A",
+          "f/2.8",
+          "ISO 125",
+          "Filtro ND",
+          "AF-C"
+        ],
+        "steps": [
+          "Pon velocidad en A.",
+          "Selecciona f/2.8.",
+          "Selecciona ISO 125.",
+          "Activa el filtro ND.",
+          "Pon el enfoque en C.",
+          "Activa detección de cara y ojo.",
+          "Sigue al sujeto.",
+          "Dispara."
+        ],
+        "tip": "Usa 1/500 s o más rápida si no se congela el movimiento.",
+        "checklist": [
+          "Apertura configurada",
+          "Velocidad comprobada",
+          "ISO configurado",
+          "Enfoque seleccionado",
+          "Formato, ND y temporizador revisados"
+        ]
+      }
+    }
+  }
+]

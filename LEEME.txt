@@ -1,0 +1,19 @@
+FUJI COMPANION v0.2
+
+Novedades:
+- Buscador de situaciones
+- Favoritos
+- Tarjetas visuales
+- Una instrucción por pantalla
+- Barra de progreso
+- Checklist final
+- Modo oscuro y claro
+- Funcionamiento sin conexión
+
+Para actualizar GitHub:
+1. Descomprime este ZIP.
+2. Entra en el repositorio actual.
+3. Add file > Upload files.
+4. Arrastra todos los archivos.
+5. Pulsa Commit changes.
+6. Espera a que GitHub Pages publique la actualización.
