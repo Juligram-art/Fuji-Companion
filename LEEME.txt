@@ -1,18 +1,22 @@
-FUJI COMPANION v0.2.1
+FUJI COMPANION v0.3 — MENÚ GRANDE
 
-CORRECCIÓN DEL MENÚ INICIAL
+CAMBIOS
 - Una sola situación por fila
-- Iconos mucho más grandes
-- Títulos más grandes
-- Descripción más legible
-- Menú menos confuso
-- Se mantienen buscador, favoritos, barra de progreso y checklist
+- Iconos grandes dentro de un recuadro
+- Títulos y descripciones de mayor tamaño
+- Toda la fila sirve para abrir la guía
+- Flecha clara a la derecha
+- Buscador plegado para que no distraiga
+- Favoritos conservados
+- Se mantienen preguntas, ajustes, instrucciones paso a paso y checklist
 
-ACTUALIZACIÓN EN GITHUB
+CÓMO ACTUALIZAR
 1. Descomprime este ZIP.
-2. Entra en el repositorio.
+2. En GitHub entra en Fuji-Companion.
 3. Add file > Upload files.
-4. Arrastra todos los archivos descomprimidos.
+4. Arrastra todos los archivos descomprimidos, no la carpeta.
 5. Pulsa Commit changes.
 6. Espera a que GitHub Pages termine.
-7. Abre primero la página en Safari y recárgala.
+7. Abre:
+   https://juligram-art.github.io/Fuji-Companion/?v=030
+8. Debe aparecer v0.3 en la cabecera.
